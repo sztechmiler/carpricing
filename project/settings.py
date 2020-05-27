@@ -37,9 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'web',
-    'api',
-    'carcatalog',
+    'project.apps.api',
+    'project.apps.carpricing',
 ]
 
 MIDDLEWARE = [
@@ -52,13 +51,13 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'carpricing.urls'
+ROOT_URLCONF = 'project.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'web/templates'),
+            os.path.join(BASE_DIR, 'project/apps/carpricing/templates/carpricing'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -72,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'carpricing.wsgi.application'
+WSGI_APPLICATION = 'project.apps.carpricing.wsgi.application'
 
 
 # Database

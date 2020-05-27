@@ -22,9 +22,7 @@ from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('web/', include('web.urls')),
     path('api/', include('api.urls',namespace='api')),
-    path('carcatalog/', include('carcatalog.urls', namespace='carcatalog'))
 
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

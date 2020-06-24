@@ -68,7 +68,7 @@ const answer = document.querySelector('#id_Model');
 
 verseChoose.onchange = function() {
     const marka = this.value;
-    makeApiCall('/carcatalog/' + marka);
+    makeApiCall('/api/' + marka);
 };
 
 function makeApiCall(url){

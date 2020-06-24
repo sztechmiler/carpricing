@@ -9,3 +9,7 @@ urlpatterns = [
     path('', views.pricingModel, name='all2'),
 
 ]
+
+urlpatterns += [
+    path('<str:brand_name>', views.getBrandModelsNames, name='getBrandModelsNames'),
+]

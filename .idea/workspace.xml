@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49050ec3-7d41-48b6-a089-ac81498c585d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/project/apps/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/apps/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apps/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/apps/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apps/carpricing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/apps/carpricing/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apps/carpricing/static/carpricing/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/apps/carpricing/static/carpricing/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/apps/carpricing/templates/carpricing/scriptsandcss.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/apps/carpricing/templates/carpricing/scriptsandcss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cp2i0shyJ3TMpPrlcr09hbInxH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/CarPricing" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49050ec3-7d41-48b6-a089-ac81498c585d" name="Default Changelist" comment="" />
+      <created>1591211337822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591211337822</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="766" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1591211374700">
+      <screen x="47" y="27" width="1873" height="1053" />
+    </state>
+    <state x="766" y="310" width="424" height="484" key="FileChooserDialogImpl/47.27.1873.1053/1920.180.1600.900@47.27.1873.1053" timestamp="1591211374700" />
+  </component>
+</project>

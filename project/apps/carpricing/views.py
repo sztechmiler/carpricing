@@ -1,6 +1,12 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from .forms import updateForm, GetPriceForm
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from .models import CarModel, CarBrand
+
+from rest_framework import viewsets
+import serializers
+
 
 def index(request):
     jakasdana = ['asada', 'basdasdaq']
@@ -16,3 +22,14 @@ def index(request):
     }
     return render(request, 'index.html', context=context)
 
+class CarmodelCreate(CreateView):
+    model = CarModel
+    fields = '__all__'
+
+class CarbrandCreate(CreateView):
+    model = CarBrand
+    fields = '__all__'
+
+class CarBrandViewSet(viewsets.ModelViewSet):
+    queryset = models.CarBand.objects.all()
+    serializer_class = serializers.CarbrandSerializer

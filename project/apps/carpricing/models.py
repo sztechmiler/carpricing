@@ -8,7 +8,6 @@ from django.urls import reverse
 
 # Create your models here.
 class CarBrand(models.Model):
-    objects = models.Manager() 
     name = models.CharField(max_length=200)
 
     def __str__(self):
@@ -17,7 +16,6 @@ class CarBrand(models.Model):
 
 
 class CarModel(models.Model):
-    objects = models.Manager() 
     name = models.CharField(max_length=200)
     car_brand = models.ForeignKey(CarBrand, on_delete=models.SET_NULL, null=True)
 

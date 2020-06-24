@@ -34,3 +34,14 @@ urlpatterns += [
     path('api/', include('project.apps.api.urls')),
     # path('api/all', api_views.alldata, name = 'czekolada' )
 ]
+urlpatterns += [
+    path('carpricing/', include('project.apps.carpricing.urls')),
+    # path('api/all', api_views.alldata, name = 'czekolada' )
+]
+
+# from django.urls import include, path
+# from django.contrib import admin
+from .api import router
+urlpatterns += [
+    path('api/v1/', include(router.urls)),
+]

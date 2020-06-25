@@ -5,7 +5,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from .models import CarModel, CarBrand
 
 from rest_framework import viewsets
-import serializers
+from . import serializers
 
 
 def index(request):
@@ -31,5 +31,5 @@ class CarbrandCreate(CreateView):
     fields = '__all__'
 
 class CarBrandViewSet(viewsets.ModelViewSet):
-    queryset = models.CarBand.objects.all()
+    queryset = CarBrand.objects.all()
     serializer_class = serializers.CarbrandSerializer

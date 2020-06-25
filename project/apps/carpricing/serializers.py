@@ -1,10 +1,14 @@
-from rest_framework import serlializers
-from .models import model
+from rest_framework import serializers
+from .models import CarBrand, CarModel
 
-class CarbrandSerializer(serlializers.ModelSerializer):
+class CarbrandSerializer(serializers.ModelSerializer):
     class Meta:
-        model = model.CarBrand
+        model = CarBrand
+        fields='__all__'
 
-class CarmodelSerializer(serlializers.ModelSerializer):
+
+class CarmodelSerializer(serializers.ModelSerializer):
     class Meta:
-        model = model.CarModel
+        model = CarModel
+        fields='__all__'
+
